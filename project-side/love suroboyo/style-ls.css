@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FBFBF9;
+    height: 3000px;
+    overflow-x: hidden;
+}
+
+.back-btn {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background: #FBFBF9;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s ease;
+    z-index: 10000;
+}
+
+.back-btn img {
+    width: 55px;
+    display: block;
+    padding: 12px 12px;
+}
+
+.back-btn:hover {
+    transform: translateX(-7px);
