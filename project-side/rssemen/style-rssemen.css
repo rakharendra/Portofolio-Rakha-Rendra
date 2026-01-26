@@ -162,6 +162,7 @@ h3:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+    margin-top: 90px;
 }
 
 .project-item-banner-potrait {
