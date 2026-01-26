@@ -97,7 +97,7 @@ h3 {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
-    padding: 70px 30px;
+    margin: 120px 30px 40px 30px;
     color: #72B2E4;
     transition: transform 0.4s ease-in-out;
 }
