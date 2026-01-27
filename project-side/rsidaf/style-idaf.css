@@ -143,22 +143,21 @@ h3:hover {
     transform: translateY(-10px);
 }
 
-.project-grid-banner-potrait {
+.project-grid-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
-    margin-top: 90px;
 }
 
-.project-item-banner-potrait {
+.project-item-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
 
-.project-item-banner-potrait img{
-    width: 600px;
+.project-item-banner img{
+    width: 610px;
     border-radius: 10px;
     display: block;
     box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
@@ -166,7 +165,7 @@ h3:hover {
     z-index: 1000;
 }
 
-.project-item-banner-potrait img:hover {
+.project-item-banner img:hover {
     transform: translateY(-10px);
 }
 
