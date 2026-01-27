@@ -65,6 +65,47 @@ body {
     line-height: 30px;
 }
 
+.project-container {
+    background: #FBFBF9;
+    border-radius: 25px 25px 0 0;
+    margin-top: -30px;
+    padding: 40px 30px;
+    min-height: 600px;
+    box-shadow:  -150px 0 190px rgba(0, 0, 0, 0.4);
+    position: relative;
+    align-items: center;
+}
+
+.main-image {
+    max-width: 100%;
+    padding: 40px 0 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image img {
+    width: 350px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.main-image img:hover {
+    transform: translateY(-10px);
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 120px 30px 40px 30px;
+    color: #72B2E4;
+    transition: transform 0.4s ease-in-out;
+}
+
+h3:hover {
+    transform: translateX(10px);
+}
+
 .logo {
     padding: 150px 40px 70px 40px;
     justify-content: center;
@@ -74,4 +115,57 @@ body {
 
 .logo img {
     width: 300px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.project-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.project-item img {
+    width: 380px;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease;
+    z-index: 1000;
+}
+
+.project-item img:hover {
+    transform: translateY(-10px);
+}
+
+.project-grid-banner-potrait {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 90px;
+}
+
+.project-item-banner-potrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.project-item-banner-potrait img{
+    width: 600px;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease;
+    z-index: 1000;
+}
+
+.project-item-banner-potrait img:hover {
+    transform: translateY(-10px);
 }
