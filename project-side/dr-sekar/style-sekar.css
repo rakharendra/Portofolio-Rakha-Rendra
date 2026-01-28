@@ -85,7 +85,7 @@ body {
 }
 
 .main-image img {
-    width: 350px;
+    width: 230px;
     transition: transform 0.4s ease-in-out;
 }
 
@@ -143,55 +143,3 @@ h3:hover {
     transform: translateY(-10px);
 }
 
-.project-grid-banner {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-}
-
-.project-item-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.project-item-banner img{
-    width: 610px;
-    border-radius: 10px;
-    display: block;
-    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease;
-    z-index: 1000;
-}
-
-.project-item-banner img:hover {
-    transform: translateY(-10px);
-}
-
-.project-grid-kalender {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    margin-top: 90px;
-}
-
-.project-grid-kalender {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.project-grid-kalender img{
-    width: 630px;
-    border-radius: 10px;
-    display: block;
-    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
-    transition: transform 0.5s ease;
-    z-index: 1000;
-}
-
-.project-grid-kalender img:hover {
-    transform: translateY(-10px);
-}
